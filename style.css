@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body{
+    max-height: 100%;
+}  
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+/*CSS reset code*/
+@font-face {
+    font-family: 'Outfit';
+    src: url(/Outfit/Outfit-VariableFont_wght.ttf);
+}
+/*Basic code for body*/
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.125rem;
+    width: 1440px;
+}
+/*Code for main section*/
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Code for container*/
+.container{
+    margin-top: 6.25rem;
+    width: 400px;
+    height: 630px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+/*Code for card image*/
+.card-image img{
+    height: 325px;
+    width: 325px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 39px;
+}
+/*Code for header-text*/
+.header-text{
+  font-size: 25px;
+  margin-left: 39px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+/*Code for content-text*/
+.content-text{
+  font-size: 19px;
+  margin-left: 39px;
+  margin-top: 10px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+/*Code for left-side*/
+.left-side{
+  margin-top: 20px;
+}
+/*Code for value image*/
+.value-image img{
+  float: left;
+  margin-left: 38px;
+  margin-top: 4px;
+}
+/*Code for value-text*/
+.value-text{
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  margin-left: 55px;
+}
+/*Code for time image*/
+.time-image img{
+  float: right;
+  margin-top: -23px;
+  padding-right: 135px;
+}
+/*Code for time-text*/
+.time-text{
+  color: hsl(215, 51%, 70%);
+  float: right;
+  margin-top: -29px;
+  margin-right: 46px;
+}
+/*Code for footer*/
+.footer-line{
+  margin-top: 25px;
+  margin-left: 39px;
+  margin-right: 39px;
+  border: none;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+/*Code for footer image*/
+.footer-image img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 39px;
+  margin-top: -2px;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+/*Code for creator text*/
+.creator-text{
+   color: hsl(215, 51%, 70%);
+   margin-top: 20px;
+   margin-left: 40px;
+}
+/*Code for creator name*/
+.creator-name{
+  color: hsl(0, 0%, 100%);
+}
+/*Code for attribution*/
+.attribution{
+  margin-top: 50px;
+}
+/*This is code for nft-preview-card-fronendmentor  exercise*/
